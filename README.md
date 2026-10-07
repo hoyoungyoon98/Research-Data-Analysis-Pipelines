@@ -137,10 +137,10 @@ Research_Data_Analysis_Pipelines/
 ├── Flow_Cytometry/
 │   ├── flow_cytometry_analysis.py
 │   └── example_data/
-│       ├── STANDARD/
+│       ├── standard/
 │       │   └── Experiment_001/
 │       │       └── Final_Results/
-│       └── TIMECOURSE/
+│       └── timecourse/
 │           └── Experiment_001/
 │               └── Final_Results/
 │
@@ -189,13 +189,13 @@ ANALYSIS_TYPE = "absolute"
 For flow cytometry analysis:
 
 ```python
-ANALYSIS_TYPE = "STANDARD"
+ANALYSIS_TYPE = "standard"
 ```
 
 or
 
 ```python
-ANALYSIS_TYPE = "TIMECOURSE"
+ANALYSIS_TYPE = "timecourse"
 ```
 
 The plaque assay pipeline runs as a single analysis workflow and does not require analysis type selection.
